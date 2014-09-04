@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\bin\Debug\GuessThatNumberBL.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\obj\Debug\GuessThatNumberBL.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\bin\Debug\GuessThatNumberBL.exe
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\bin\Debug\GuessThatNumberBL.pdb
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\obj\Debug\GuessThatNumberBL.exe
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\obj\Debug\GuessThatNumberBL.pdb
