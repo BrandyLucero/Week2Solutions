@@ -10,6 +10,14 @@ namespace HangmanBL
     {
         static void Main(string[] args)
         {
+         //get word from list 
+            Random rng = new Random();
+            string WordToGuess = rng(List);
+           
+
+
+
         }
-    }
+        while (
+    } 
 }
