@@ -1,1 +1,2 @@
 C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\bin\Debug\HangmanBL.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\obj\Debug\HangmanBL.csprojResolveAssemblyReference.cache

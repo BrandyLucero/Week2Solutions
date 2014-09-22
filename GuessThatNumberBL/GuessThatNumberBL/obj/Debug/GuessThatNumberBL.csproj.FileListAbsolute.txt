@@ -4,3 +4,5 @@ C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\Guess
 C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\bin\Debug\GuessThatNumberBL.pdb
 C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\obj\Debug\GuessThatNumberBL.exe
 C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\obj\Debug\GuessThatNumberBL.pdb
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\bin\Debug\EntityFramework.dll
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\GuessThatNumberBL\GuessThatNumberBL\bin\Debug\EntityFramework.xml
