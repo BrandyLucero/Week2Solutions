@@ -1,2 +1,8 @@
 C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\bin\Debug\HangmanBL.exe.config
 C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\obj\Debug\HangmanBL.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\bin\Debug\HangmanBL.exe
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\bin\Debug\HangmanBL.pdb
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\bin\Debug\EntityFramework.dll
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\bin\Debug\EntityFramework.xml
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\obj\Debug\HangmanBL.exe
+C:\Users\Technologist SP\Documents\GitHub\Week2Solutions\HangmanBL\HangmanBL\obj\Debug\HangmanBL.pdb

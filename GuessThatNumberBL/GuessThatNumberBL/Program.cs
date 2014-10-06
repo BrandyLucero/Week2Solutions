@@ -11,89 +11,62 @@ namespace GuessThatNumberBL
 
         static void Main(string[] args)
         {
-            //Generate a random number to be guessed
+            //ask the user ti play
+            Console.WriteLine("Welcome to GUESS THAT NUMBER!\nYou are to guess the number\nI have chosen to be the magic number\nby typing a number from 1 to 100.\n\n");
+
+            guessThatNumber();
+
+            //keep the console open 
+            Console.ReadKey(true);
+        }
+        static void guessThatNumber()
+        {
+
+            //Generate a random number to be guessed using a randon generator
+
             Random rnd = new Random();
+            //claim variables for the computers pick of the number between 1 and 100
             int numberToGuess = rnd.Next(100) + 1;
-            int userGuess = 0;
+            //clai a variable for the number of guesses
+
             int numberOfGuesses = 0;
+
+            //claim a boolean as (false) to run our while loop.
+            bool hasWon = false;
             //loop for guessing numbers
-            while (userGuess != numberToGuess)
+            while (!hasWon)
             {
-                //add up the number of guesses
-                numberOfGuesses++;
-                //output to user
-                Console.WriteLine("Enter your guess: ");
-                int.TryParse(Console.ReadLine(), out userGuess);
-                Console.ReadLine();
-                //user guess a number
+                //find users input with readline
+                int userGuess = int.Parse(Console.ReadLine());
+
                 if (userGuess > numberToGuess)
                 {
-                    //if guess is higher than the random number
-                    Console.WriteLine(userGuess + "is too high. Try again!" );
+                    Console.WriteLine("\nNumber is too High. Try again!\n");
+                    numberOfGuesses++;
+
                 }
                 else if (userGuess < numberToGuess)
                 {
-                    ////if guess is lower than the random number
-                    Console.WriteLine(userGuess + "is too low. Try again!");
+                    Console.WriteLine("\nNumber is too Low. Try again!\n");
+                    numberOfGuesses++;
+
                 }
-                else
+                else if (userGuess == numberToGuess)
                 {
-                    //if user gets correct anser output
-                    Console.WriteLine(userGuess + "is right! Congratulations.");
-                    //output number of guesses
-                    Console.WriteLine("Number of guesses:" + numberOfGuesses);}
-
-               }
-
-
-            }  
-            static void AddHighScore(int PlayerScore)
-            {
-
-            Console.WriteLine("Your Name");
-            string playerName = Console.ReadLine();
-            NORTHWNDEntities db = new NORTHWNDEntities();
-
-            //create a new highscore
-            HighScore newHighScore = new HighScore();
-            newHighScore.Date = DateTime.Now;
-            newHighScore.Game = "Trivia";
-            newHighScore.Name = playerName;
-            newHighScore.Score = PlayerScore;
-
-            //add it to the data base
-
-            db.HighScores.Add(newHighScore);
-
-            //save changes 
-            db.SaveChanges();
-            
-
-        }
-
-        static void DisplayHighScore()
-        {
-            Console.WriteLine("Display Guess That Number High Score");
-            Console.WriteLine("--------------");
-
-            NORTHWNDEntities db = new NORTHWNDEntities();
-            List<HighScore> highScoreList = db.HighScores.Where(x => x.Game == "Guess That Number")
-                .OrderByDescending(x => x.Score).Take(10).ToList();
-
-            foreach(HighScore highScore in highScoreList)
-            {
-                Console.WriteLine("{0}. {1}- {2} on {3}",
-                highScoreList.IndexOf(highScore) + 1,
-                highScore.Name,
-                highScore.Score,
-                highScore.Date.Value.ToShortDateString());
-
+                    numberOfGuesses++;
+                    Console.Clear();
+                    Console.WriteLine("Congratulations! You are a winner! You have guessed my number!");
+                    Console.WriteLine("It took you " + numberOfGuesses + " guesses to find the number.");
+                    hasWon = true;
+                }
             }
-
         }
-
     }
 }
+
+  
+ 
+  
 
     
 
